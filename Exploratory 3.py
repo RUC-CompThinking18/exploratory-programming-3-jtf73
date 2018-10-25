@@ -9,7 +9,7 @@ def use_regex(l):
     r = []
     for x in TakeMeToYourLeader:
         if len(x) > 3:
-            r += x
+            r.append(x)
     print r
-
-use_regex(KingGeedorah)
+print read
+use_regex(read)
